@@ -1,0 +1,120 @@
+body{margin: 10px;}
+.red {
+    background-color: aqua;
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.blue {
+    background-color: brown;
+    height: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+h1 {
+    text-align: center;
+    margin-top: 75px;
+
+}  
+.btn {
+    display: inline;
+    border: 1px solid ;
+    background-color:lightgray;
+    border-color:black;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+    font-size: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.card {
+    color: crimson;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border: 7px red;
+    border-radius: 15px;
+    border-style: dashed;
+}
+.search {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    border-radius: 24px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.snimka {
+    width: fit-content;
+    height: 380px;
+    border: 1px dotted red;
+    border-radius: 10px;
+}
+
+.tur {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border: 3px solid black;
+    border-style: double;
+    margin-top: 30px;
+    height: 80px;
+    text-align: center;
+}
+.butt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.menubttext {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 50px;
+
+}
+.cards {
+    background-size: auto;
+    display: flex;
+    border: 1px dotted red;
+    padding: 20px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+}
